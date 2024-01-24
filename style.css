@@ -1,0 +1,66 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body{
+   height: 90%;
+   /* width: 100%; */
+   background-color: yellowgreen;
+   /* background-image: url(https://assets-v2.lottiefiles.com/a/5d2764d8-1174-11ee-9182-5b76e4cf2501/vnGlzqUt0s.gif);
+   background-repeat: no-repeat;
+   background-position:right;
+   background-size: 30%; */
+}
+
+h1{
+   text-align: center;
+   font-size: 60px;
+   margin: 25px;
+   color: rgb(247, 6, 6);
+   text-decoration: underline rgb(29, 50, 29);
+   font-family: cursive;
+   font-weight: 300;
+   font-style: italic;
+}
+
+.container{
+   height: 80%;
+   /* width: 100%; */
+   align-items: center;
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.box{
+   height: 300px;
+   width: 600px;
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 60px;
+   background-color: rgb(229, 72, 232);
+   border-radius: 30px;
+}
+
+.box button{
+   font-size: 25px;
+   margin: 15px;
+   padding: 15px;
+   background-color: aqua;
+   border: 2px dashed red;
+   border-radius: 40px;
+   cursor: pointer;
+   box-shadow: 0 8px 8px 5px black;
+}
+
+.box button:hover{
+   background-color: rgb(255, 2, 2);
+   color: aliceblue;
+   scale: 120%;
+}
